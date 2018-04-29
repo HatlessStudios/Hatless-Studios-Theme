@@ -1,0 +1,16 @@
+<theme>
+
+	<formatVersion>4</formatVersion>
+	<include>./../hatless.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+	</view>
+	
+	<view name="basic"></view>
+	<view name="detailed"></view>
+	<view name="video"></view>
+
+</theme>

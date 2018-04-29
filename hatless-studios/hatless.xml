@@ -1,0 +1,61 @@
+<!--
+	theme name: 	Hatless-Studios
+	version: 		1.0
+	authors: 		Scott Richmond-Wood, Chris Phippen
+	email:			
+	website:		
+	license:		creative commons CC-BY-NC-SA	
+-->
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<view name="system, basic, detailed, video">
+		<image name="background_colour" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<color>1c1615</color>
+		</image>
+
+		<image name="background_pattern" extra="true">
+			<path>./_inc/images/bg_pattern.png</path>
+				<origin>0.5 0.5</origin>
+				<pos>0.5 0.5</pos>
+				<size>1 1</size>
+				<color>27ff2a</color>
+				<tile>true</tile>
+		</image>
+
+		<image name="background_help" extra="true">
+			<path>./_inc/images/bg_help.png</path>
+				<origin>0 0</origin>
+				<pos>0 1</pos>
+				<size>1 0.070</size>
+				<color>27ff2a</color>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>000000</textColor>
+			<iconColor>000000</iconColor>
+			<fontPath>./_inc/fonts/ARCADECLASSIC.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+		</helpsystem>
+	</view>
+
+	<view name="basic">
+		<image name="background_logo" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 0.18</size>
+				<color>FFFFFF</color>
+		</image>
+	</view>
+
+	<view name="detailed"></view>
+	<view name="video"></view>
+
+</theme>
