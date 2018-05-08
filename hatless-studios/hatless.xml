@@ -1,7 +1,7 @@
 <!--
 	theme name: 	Hatless-Studios
 	version: 		1.0
-	authors: 		Scott Richmond-Wood, Chris Phippen
+	authors: 		Scott Richmond-Wood, Chris Phippen, Alexandre Tunstall
 	email:			
 	website:		
 	license:		creative commons CC-BY-NC-SA	
@@ -53,9 +53,118 @@
 				<size>1 0.18</size>
 				<color>FFFFFF</color>
 		</image>
+
+		<!-- Helper for placing the logo, to be removed once placement is settled -->
+		<image name="logo_helper" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.09</pos>
+			<size>0.4 0.16</size>
+			<color>ff0000aa</color>
+		</image>
+
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.09</pos>
+			<maxSize>0.4 0.16</maxSize>
+		</image>
+
+		<!-- Helper for placing the game list, to be editted once placement is settled -->
+		<image name="gamelist_helper" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0 0</origin>
+			<pos>0.05 0.2</pos>
+			<size>0.9 0.71</size>
+			<color>ff0000aa</color>
+		</image>
+
+		<textlist name="gamelist">
+			<selectedColor>000000</selectedColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/ARCADECLASSIC.TTF</fontPath>
+			<pos>0.05 0.2</pos>
+			<size>0.9 0.71</size>
+			<fontSize>0.04</fontSize>
+		</textlist>
 	</view>
 
-	<view name="detailed"></view>
+	<view name="detailed">
+
+		<image name="gamelist_helper" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0 0</origin>
+			<pos>0.01 0.02</pos>
+			<size>0.35 0.89</size>
+			<color>DC143C44</color>
+		</image>
+
+		<image name="image_helper" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0 0</origin>
+			<pos>0.37 0.02</pos>
+			<size>0.35 0.62</size>
+			<color>4169E144</color>
+		</image>
+
+		<image name="metadata_helper" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0 0</origin>
+			<pos>0.73 0.02</pos>
+			<size>0.26 0.62</size>
+			<color>00C5CD44</color>
+		</image>
+
+		<image name="desc_helper" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0 0</origin>
+			<pos>0.37 0.66</pos>
+			<size>0.62 0.25</size>
+			<color>EEC90044</color>
+		</image>
+
+		<image name="logo_helper" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.186 0.14</pos>
+			<size>0.33 0.19</size>
+			<color>8B636C44</color>
+		</image>
+
+		<image name="gamelist_helper_2" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0 0</origin>
+			<pos>0.02 0.25</pos>
+			<size>0.33 0.64</size>
+			<color>8B636C44</color>
+		</image>
+
+		<image name="image_helper_2" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.545 0.33</pos>
+			<size>0.33 0.58</size>
+			<color>0000EE44</color>
+		</image>
+
+		<image name="metadata_helper_2" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0 0</origin>
+			<pos>0.74 0.04</pos>
+			<size>0.24 0.58</size>
+			<color>00868B44</color>
+		</image>
+
+		<image name="desc_helper_2" extra="true">
+			<path>./_inc/images/bg_colour.png</path>
+			<origin>0 0</origin>
+			<pos>0.38 0.68</pos>
+			<size>0.60 0.21</size>
+			<color>CDAD0044</color>
+		</image>
+	</view>
+
 	<view name="video"></view>
 
 </theme>
